@@ -54,10 +54,11 @@ function App() {
       drawRect(obj, ctx);
       setObjects(obj);
       console.log(obj)
+      console.log(tf)
     }
   };
 
-  useEffect(()=>{runCoco()},[]);
+  useEffect(()=>{runCoco()});
 
   return (
     <div className="App">
